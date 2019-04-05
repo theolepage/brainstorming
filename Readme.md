@@ -49,6 +49,7 @@ Furthermore, the algorithm described in the second documents provides an answer 
 
 ## To-Do
 
+- Try using a neural network (3 inputs: wind/objective/heading angle, 1 output: rudder angle)
 - Create a simulation sandbox to test different algorithms
 - Write an implementation for both algorithms
 - Create a website hosting sailing tournaments to challenge each user's algorithm
