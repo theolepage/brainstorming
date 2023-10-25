@@ -41,7 +41,7 @@ It relies on a [proportional–integral–derivative controller](https://en.wiki
 
 This algorithm is based on the optimisation of the  time-derivative of the distance between boat and target.
 
-![Velocity polar diagram of a Hobie 20](https://raw.githubusercontent.com/thdoteo/brainstorming/master/docs/vpd-hobie20.png)
+![Velocity polar diagram of a Hobie 20](https://raw.githubusercontent.com/theolepage/brainstorming/master/docs/vpd-hobie20.png)
 
 According to the [velocity made good](https://en.wikipedia.org/wiki/Velocity_made_good) (or VMG) concept, the actual speed a sailboat can reach in a certain direction depends on the windspeed but also on the angle between boat heading and wind direction. While no direct course is possible straight into the wind, the maximum speed for a Hobie 20 is obtained with the wind from the side at about ±90 degrees. A boat-specific velocity polar diagram (or VPD) is created and used by the algorithm to adapt the heading.
 
